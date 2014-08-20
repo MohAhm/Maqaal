@@ -1,0 +1,206 @@
+{
+    "goteborg": {
+        "location": "Gothenburg",
+        "forecast": [
+            {
+                "date": "2014-05-30",
+                "time": "12:00:00",
+                "weather": "Fair",
+                "img": "<img src='img/Fair.png' alt='Bild'>",
+                "temp": 14
+            },
+            {
+                "date": "2014-05-31",
+                "time": "12:00:00",
+                "weather": "Fair",
+                "img": "<img src='img/Fair.png' alt='Bild'>",
+                "temp": 14
+            },
+            {
+                "date": "2014-06-01",
+                "time": "14:00:00",
+                "weather": "Rain",
+                "img": "<img src='img/Rain.png' alt='Bild'>",
+                "temp": 12
+            },
+            {
+                "date": "2014-06-02",
+                "time": "14:00:00",
+                "weather": "Rain",
+                "img": "<img src='img/Rain.png' alt='Bild'>",
+                "temp": 12
+            },
+            {
+                "date": "2014-06-03",
+                "time": "14:00:00",
+                "weather": "Cloudy",
+                "img": "<img src='img/Cloudy.png' alt='Bild'>",
+                "temp": 15
+            },
+            {
+                "date": "2014-06-04",
+                "time": "14:00:00",
+                "weather": "Rain",
+                "img": "<img src='img/Rain.png' alt='Bild'>",
+                "temp": 13
+            },
+            {
+                "date": "2014-06-05",
+                "time": "14:00:00",
+                "weather": "Fair",
+                "img": "<img src='img/Fair.png' alt='Bild'>",
+                "temp": 14
+            },
+            {
+                "date": "2014-06-06",
+                "time": "14:00:00",
+                "weather": "Rain",
+                "img": "<img src='img/Rain.png' alt='Bild'>",
+                "temp": 15
+            },
+            {
+                "date": "2014-06-07",
+                "time": "14:00:00",
+                "weather": "Sunny",
+                "img": "<img src='img/Sunny.png' alt='Bild'>",
+                "temp": 23
+            }
+        ]
+    },
+    "malmo": {
+        "location": "Malmö",
+        "forecast": [
+            {
+                "date": "2014-05-30",
+                "time": "12:00:00",
+                "weather": "Fair",
+                "img": "<img src='img/Fair.png' alt='Bild'>",
+                "temp": 14
+            },
+            {
+                "date": "2014-05-31",
+                "time": "12:00:00",
+                "weather": "Fair",
+                "img": "<img src='img/Fair.png' alt='Bild'>",
+                "temp": 14
+            },
+            {
+                "date": "2014-06-01",
+                "time": "14:00:00",
+                "weather": "Rain",
+                "img": "<img src='img/Rain.png' alt='Bild'>",
+                "temp": 11
+            },
+            {
+                "date": "2014-06-02",
+                "time": "14:00:00",
+                "weather": "Rain",
+                "img": "<img src='img/Rain.png' alt='Bild'>",
+                "temp": 12
+            },
+            {
+                "date": "2014-06-03",
+                "time": "14:00:00",
+                "weather": "Rain",
+                "img": "<img src='img/Rain.png' alt='Bild'>",
+                "temp": 15
+            },
+            {
+                "date": "2014-06-04",
+                "time": "14:00:00",
+                "weather": "Rain",
+                "img": "<img src='img/Rain.png' alt='Bild'>",
+                "temp": 14
+            },
+            {
+                "date": "2014-06-05",
+                "time": "14:00:00",
+                "weather": "Cloudy",
+                "img": "<img src='img/Cloudy.png' alt='Bild'>",
+                "temp": 14
+            },
+            {
+                "date": "2014-06-06",
+                "time": "14:00:00",
+                "weather": "Fair",
+                "img": "<img src='img/Fair.png' alt='Bild'>",
+                "temp": 16
+            },
+            {
+                "date": "2014-06-07",
+                "time": "14:00:00",
+                "weather": "Sunny",
+                "img": "<img src='img/Sunny.png' alt='Bild'>",
+                "temp": 22
+            }
+        ]
+    },
+    "stockholm": {
+        "location": "Stockholm",
+        "forecast": [
+            {
+                "date": "2014-05-30",
+                "time": "12:00:00",
+                "weather": "Fair",
+                "img": "<img src='img/Fair.png' alt='Bild'>",
+                "temp": 15
+            },
+            {
+                "date": "2014-05-31",
+                "time": "12:00:00",
+                "weather": "Rain",
+                "img": "<img src='img/Rain.png' alt='Bild'>",
+                "temp": 15
+            },
+            {
+                "date": "2014-06-01",
+                "time": "14:00:00",
+                "weather": "Rain",
+                "img": "<img src='img/Rain.png' alt='Bild'>",
+                "temp": 10
+            },
+            {
+                "date": "2014-06-02",
+                "time": "14:00:00",
+                "weather": "Rain",
+                "img": "<img src='img/Rain.png' alt='Bild'>",
+                "temp": 11
+            },
+            {
+                "date": "2014-06-03",
+                "time": "14:00:00",
+                "weather": "Rain",
+                "img": "<img src='img/Rain.png' alt='Bild'>",
+                "temp": 12
+            },
+            {
+                "date": "2014-06-04",
+                "time": "14:00:00",
+                "weather": "Rain",
+                "img": "<img src='img/Rain.png' alt='Bild'>",
+                "temp": 12
+            },
+            {
+                "date": "2014-06-05",
+                "time": "14:00:00",
+                "weather": "Fair",
+                "img": "<img src='img/Fair.png' alt='Bild'>",
+                "temp": 14
+            },
+            {
+                "date": "2014-06-06",
+                "time": "14:00:00",
+                "weather": "Fair",
+                "img": "<img src='img/Fair.png' alt='Bild'>",
+                "temp": 17
+            },
+            {
+                "date": "2014-06-07",
+                "time": "14:00:00",
+                "weather": "Cloudy",
+                "img": "<img src='img/Cloudy.png' alt='Bild'>",
+                "temp": 14
+            }
+        ]
+    }
+}

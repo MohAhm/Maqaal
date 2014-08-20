@@ -1,0 +1,108 @@
+@import "var.less";
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: @font-size;
+	line-height: 30px;
+	color: @white;
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+} 
+
+@font-face {
+    font-family: 'Moderne Sans';
+    src: url('../MODERNE SANS.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.grupp:before, .grupp:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#bg {
+	background: @bg-img;
+	background-size: cover;
+	top: 0;
+	z-index: 1;
+
+
+	#content {
+		position: relative;
+		width: @content-width;
+		margin: 60px auto 0 auto;
+		font-family: 'Moderne Sans', sans-serif;
+		z-index: 2;
+
+
+		.logo {
+			width: @logo-width;
+			height: @logo-height;
+			padding: 0;
+			margin: 0;
+			background: @logo-img;
+			text-indent: -9999px;
+		}
+
+		.location {
+			background-color: @backgroundColor;
+			margin-top: 60px;
+			margin-bottom: 90px;
+			border-radius: 10px;
+
+			.heading {
+				font-size: @heading-font-size;
+				font-weight: @heading-font-weight;
+				letter-spacing: 1px;
+				margin: 0;
+				padding: 30px 0 30px 20px;
+			}
+
+			section {
+				position: relative;
+				width: @section-width;
+				margin: 0;
+				padding: 30px 10px;
+				float: left;
+				border-top: @border;
+				border-left: transparent;
+				border-right: transparent;
+
+				&:nth-child(3), &:nth-child(6), &:nth-child(9) {
+					border-left: @border; 
+					border-right: @border; 
+				}
+
+				img {
+					float: left; 
+				}
+
+				h4 {
+					float: left;
+					position: relative;
+					top: @h4-top;
+					margin: 0;
+					margin-left: 5px;
+					font-size: @h4-font-size;
+					font-weight: @base-font-weight;
+				}
+
+				.temp {
+					position: relative;
+					font-size: @temp-font-size;
+					font-weight: @base-font-weight;
+					top: (@temp-top + 10px);
+				}
+
+				span {
+					float: left;
+					margin: 10px 5px 0 10px;
+				}
+			}
+		}
+	}
+}
+

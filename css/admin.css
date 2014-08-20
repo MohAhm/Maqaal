@@ -1,0 +1,415 @@
+/* 
+   
+	Färg
+	****
+
+	Meny: 			#202d44
+	Länk: 			#6dbcdb
+	DF-Li: 			#95a5a6
+	Knapp & Länk: 	#fc4349
+	Background: 	#d7dadb
+
+ */
+
+
+
+body {
+	font-family: 'Raleway', sans-serif;
+	line-height: 30px;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*	--------------------
+	Typography
+   	-------------------- 	*/
+p {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+a {
+	color: #6dbcdb; 
+	text-decoration: none;
+}
+
+a:hover {
+	color: #23718e;	
+}
+
+
+
+/*	--------------------
+	Meny
+   	-------------------- 	*/
+.meny {
+	background: #202d44;
+	display: inline-block;
+	width: 200px;
+	height: 100%;
+	position: absolute;
+}
+
+
+.logo {
+	display: inline-block;	 
+	margin: 24px;
+}
+
+
+
+/*	--------------------
+	LOGIN
+   	-------------------- 	*/
+#content-login {
+	position: absolute;
+	background-color: #d7dadb;
+	width: 100%;
+	height: 100%;
+}
+
+#login-form {
+	background-color: #fff;
+	width: 300px;
+	padding: 60px;
+	margin: 100px auto;
+	-webkit-border-radius: 5px; 
+	   -moz-border-radius: 5px; 
+	        border-radius: 5px;
+}
+
+.logo-login {
+	margin: 0;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+form input[type="text"], form input[type="password"] {
+	padding: 20px 13px;
+	border: 1px solid #ccc;
+}
+
+form input[type="text"]:hover, form input[type="password"]:hover,
+form input[type="text"]:focus, form input[type="password"]:focus {
+	border: 1px solid #999;
+}
+
+form label {
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.lo form label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+.form-with {
+	width: 94%;
+}
+
+
+/*	--------------------
+	ERROR
+   	-------------------- 	*/
+h4 {
+	color: #a00;
+	font-size: 16px;
+}
+
+h4.error {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	font-size: 16px;
+	position: relative;
+}
+
+span.exit {
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #a00;
+	font-size: 30px;
+	padding: 0 5px;
+	cursor: pointer;
+}
+
+
+
+/*	--------------------
+	Navigation
+   	-------------------- 	*/
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a {
+	color: #fff;
+	display: block;
+	height: 60px;
+	line-height: 60px;
+	width: 100%;
+	position: relative;	
+	font-size: 18px;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+nav ul>li:hover>a, nav ul>li:focus>a {
+	color: #fff;
+	background-color: #6dbcdb; 
+}
+
+nav ul li.active a {
+	color: #fff;
+	background-color: #6dbcdb;
+}
+
+.nav-namn {
+	position: absolute;
+	padding-left: 50px;
+}
+
+.ico {
+	background-repeat: no-repeat;
+	background-position: 10px center; 
+}
+
+.add {
+	background-image: url(../img/add.png);
+}
+
+.hem {
+	background-image: url(../img/hem.png);
+}
+
+.at {
+	background-image: url(../img/at.png);
+}
+
+.menu {
+	background-image: url(../img/menu.png);	
+}
+
+.user {
+	background-image: url(../img/users.png);	
+}
+
+.ut {
+	background-image: url(../img/power.png);	
+}
+
+
+/*	--------------------
+	Content
+   	-------------------- 	*/
+#content {
+	position: fixed;
+	background-color: #d7dadb;
+	left: 200px;
+	width: 100%;
+	height: 100%;
+}
+
+.inn {
+	margin-left: 50px;
+	width: 80%;
+}
+
+.inn h2 {
+	position: absolute;
+	color: #000;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.d h2 {
+	position: relative;
+}
+
+
+
+/*	--------------------
+	BTN
+   	-------------------- 	*/
+.btm {
+	width: auto;
+	background-color: #fc4349;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+	position: relative;
+	padding: 16px 45px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.btm:hover {
+	color: #fff;
+	background-color: #fe7275;
+	text-decoration: none;
+}
+
+.btm:active{
+	color: #fff;
+	background-color: #fe979a;
+}
+
+.btm-r {
+	float: right;
+	padding: 10px 15px;
+}
+
+span {
+	margin-left: 30px;
+}
+
+a input[type="submit"] {
+	float: right;
+}
+
+.log {
+	width: 310px;
+	padding: 20px 13px;
+	font-size: 18px;
+}
+
+
+/*	--------------------
+	TABLES
+   	-------------------- 	*/
+.tabler {
+	clear: both;
+	overflow: hidden;
+	background-color: #fff;
+	margin-top: 105px;
+	margin-bottom: 10px;
+}
+
+.tabler td h4 {
+	font-size: 20px;
+	color: #000;
+}
+
+.tabler table {
+	width: 100%;
+	font-size: 16px;
+	font-weight: 500;
+	border: 1px solid #95a5a6;
+}
+
+.tabler table a {
+	color: #000;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.tabler table a:hover {
+	color: #fc4349;
+}
+
+.tabler form input[type="text"] {
+	width: 250px;
+}
+
+.tabler table th {
+	font-size: 18px;
+	font-weight: 400;
+	background-color: #202d44;
+	color: #fff;
+	border-left: 1px solid #95a5a6;
+	padding: 20px;
+}
+
+.tabler table td.action, table th.action {
+	width: 10%;
+}
+
+.tabler table tbody td {
+	padding: 0 20px;
+	border-left: 1px solid #95a5a6;
+}
+
+.tabler table tbody tr:nth-child(odd) {
+	background-color: #eee;
+}
+
+.img-center {
+	text-align: center;
+}
+
+.valign {
+	width:200px;
+	vertical-align: top;
+	text-align: left;
+	margin-top: 30px;
+}
+
+td label {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+td input[type="text"] {
+	width: 80%;
+}
+
+input[type="text"], input[type="file"] {
+	margin-bottom: 30px;
+}
+
+
+
+/*	--------------------
+	Pagination Bootstrap
+   	-------------------- 	*/
+.pagination > li > a {
+	font-size: 20px;
+}
+
+.pagination > .disabled > a {
+	color: #000;
+	background: #fff;
+}
+
+.pagination > .disabled > a, .pagination > .disabled > a:hover {
+	cursor: pointer;
+}
+
+.pagination > .active > a{
+	color: #000; 
+	background-color: #6dbcdb;
+	border: 1px solid #6dbcdb;
+}
+
+.pagination > .active > a:hover{
+	color: #000; 
+	background-color: #6dbcdb;
+	border: 1px solid #6dbcdb;
+}
+
+.pagination > .disabled > a {
+	color: #000; 
+	background-color: #fff;
+	border: none;
+}
+
+.pagination > .disabled > a:hover {
+	color: #000; 
+	background-color: #eee;
+	border: none;
+}

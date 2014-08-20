@@ -1,0 +1,469 @@
+/* 
+  
+	Färg
+	****
+
+	Meny: 			#202d44
+	Länk: 			#6dbcdb
+	DF-Li: 			#95a5a6
+	Knapp & Länk: 	#fc4349
+	Background: 	#d7dadb
+
+ */
+
+body {
+	font-family: 'Raleway', sans-serif;
+	line-height: 30px;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+
+.wrap {
+	position: relative;
+	width: 1180px;
+	margin: auto;
+	padding: 0;
+}
+
+.grupp:before, .grupp:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
+/*	--------------------
+	Typography
+   	-------------------- 	*/	
+@font-face {
+    font-family: 'narwhalbold';
+    src: url('../font/Narwhal/narwhal_bold-webfont.eot');
+    src: url('../font/Narwhal/narwhal_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/Narwhal/narwhal_bold-webfont.woff') format('woff'),
+         url('../font/Narwhal/narwhal_bold-webfont.ttf') format('truetype'),
+         url('../font/Narwhal/narwhal_bold-webfont.svg#narwhalbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h2, h3, h4 {
+	margin: 0;
+}
+
+h2, h3 {
+	font-size: 30px;
+	font-weight: 500;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+h3 small {
+	font-size: 14px;
+	color: #95a5a6;
+}
+
+a {
+	color: #23718e; 
+	text-decoration: none;
+}
+
+a:hover {
+	color: #6dbcdb;	   
+}
+
+ol {
+	padding: 0px;
+	margin: 0px;
+}
+
+ol li {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+
+
+/*	--------------------
+	Header
+   	-------------------- 	*/
+#meny {
+	display: block;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 80px;
+	padding: 5px 0 30px 0;
+	margin: auto;
+	z-index: 999;
+	background-color: #202d44;
+	-webkit-transition: padding .3s;
+	   -moz-transition: padding .3s;
+		-ms-transition: padding .3s;
+		 -o-transition: padding .3s;
+			transition: padding .3s;
+}
+
+.logo img {
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+
+/*	--------------------
+	Navigation
+   	-------------------- 	*/
+nav ul {
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+nav ul li {
+	display: block;
+	list-style: none;
+	float: left;
+}
+
+nav ul li a {
+	display: block;
+	color: #95a5a6;
+	text-decoration: none;
+	font-weight: 400;
+	padding: 20px 20px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	-webkit-transition: color .3s ease-in;
+	   -moz-transition: color .3s ease-in;
+		-ms-transition: color .3s ease-in;
+		 -o-transition: color .3s ease-in;
+			transition: color .3s ease-in;
+}
+
+nav ul li:last-child a {
+	padding: 20px 0 20px 20px;
+}
+
+nav ul li.active a {
+	color: #fff;
+}
+
+nav ul>li:hover>a, nav ul>li:focus>a { 
+	color: #fff;
+}
+
+
+
+/*	--------------------
+	Artiklar
+   	-------------------- 	*/
+#bg {
+	position: relative;
+	background-color: #d7dadb;
+}
+
+#content {
+	background-color: #fff;
+	float: left;
+	width: 800px;
+	margin: 160px 60px 60px 0;
+} 
+
+.art {
+	float: left;
+	padding: 40px 30px 0 30px;
+}
+
+.artikle {
+	clear: both;
+	padding: 30px;
+	overflow: hidden;
+}
+
+.artikle .img-link {
+	position: relative;
+}
+
+.artikle  img {
+	padding: 0;
+	margin: 0;
+} 
+
+.artikle  .img-link  a{
+	opacity: 0;
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 98%;
+	cursor: pointer;
+	background: rgba(109,188,219, 0.5);
+	-webkit-transition: opacity 0.3s ease-in-out;
+}
+
+.artikle  .img-link:hover  a {
+	opacity: 1;
+}
+
+.artikle h3 {
+	color: #000;
+	font-weight: 500;
+}
+
+.artikle p {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.las {
+	font-size: 14px;
+	font-weight: 500;
+	padding-left: 20px;
+}
+
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+hr:last-child {
+	clear: both;
+    visibility: hidden;
+}
+
+
+
+/*	--------------------
+	Side-Box
+   	-------------------- 	*/
+aside {
+	width: 320px;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+#side-box {
+	margin-top: 160px; 
+}
+
+#side-box h4 {
+	position: absolute;	
+	font-family: 'narwhalbold', Helvetica, sans-serif;
+	color: #fff;
+	background-color: #202d44;
+	padding: 15px 70px 15px 30px;
+	width: 220px;
+}
+
+.side-inner {
+	background-color: #fff;
+	margin-top: 60px;
+	padding: 26px;
+	width: 268px;
+}
+
+/*	--------------------
+	SÖK
+   	-------------------- 	*/
+#sok {
+	margin-bottom: 60px;
+}
+
+input[type="search"], input[type="email"] {
+	position: relative;
+	padding: 16px 80px 16px 20px;
+	width: 110px;
+	border: none;
+	outline: none;
+	margin: 0 -5px 0 0;
+}
+
+
+::-webkit-input-placeholder {
+	font-size: 16px;
+	font-weight: 500;
+	color: #95a5a6;
+}
+
+:-moz-input-placeholder {
+	font-size: 16px;
+	font-weight: 500;
+	color: #95a5a6;
+}
+
+.btn {
+	width: auto;
+	background-color: #fc4349;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	position: relative;
+	padding: 16px 55px;
+	display: inline-block;
+	background-repeat: no-repeat; 
+}
+
+.btn:hover {
+	background-color: #fe7275;
+}
+
+.img-center {
+	background-position: center; 
+}
+
+.sok-img {
+	background-image: url(../img/sok.png);
+	text-align: center;
+}
+
+#sok input[type="submit"] {
+	text-indent: -9999px;
+}
+
+
+
+/*	--------------------
+	SOCIAL
+   	-------------------- 	*/
+#social {
+	float: left;
+	margin-bottom: 60px;
+}
+
+.soc a {
+	position: relative;
+	margin-right: 40px;	
+}
+
+.soc a:hover {
+	top: -2px;		
+}
+
+.soc a:last-child {
+	margin-right: 0;
+}
+
+
+
+/*	--------------------
+	SENASTE
+   	-------------------- 	*/
+#senaste {
+	margin-top: 260px;
+}
+
+.senaste-nytt p:first-child {
+	margin-top: 60px;
+}
+
+.senaste-nytt p a {
+	color: #000;
+	font-weight: 500;
+	-webkit-transition: color .15s ease-in;
+	   -moz-transition: color .15s ease-in;
+		-ms-transition: color .15s ease-in;
+	  	 -o-transition: color .15s ease-in;
+			transition: color .15s ease-in;
+}
+
+.senaste-nytt p a:hover {
+	color: #fc4349;
+}
+
+.senaste-nytt small {
+	color: #95a5a6;
+	font-size: 12px;
+}
+
+.senaste-nytt hr {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+
+
+/*	--------------------
+	EMAIL
+   	-------------------- 	*/
+#email {
+	background: #6dbcdb url(../img/email.png) no-repeat; 
+	background-size: cover; 
+	height: 200px;
+}
+
+#email h4 {
+	margin: 85px 0;
+	font-size: 30px;
+	font-weight: 500;
+	float: left;
+	color: #fff;
+	text-shadow: 1px 1px 30px #000; 
+	margin-right: 53px;
+}
+
+#email form {
+	margin: 70px 0;
+}
+
+input[type="email"] {
+	padding: 24px 80px 21px 20px; 
+	width: 160px;
+	float: left;
+}
+
+.btn-L {
+	position: relative;
+	background-color: #fc4349;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	display: inline-block;
+	color: #fff;
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+	padding: 20px 43px;
+	text-shadow: 1px 1px 1px #000; 
+}
+
+.btn-L:hover {
+	background-color: #fe7275;
+}
+	
+
+	
+/* 	--------------------------
+	Footer
+	--------------------------  */	
+footer {
+	background-color: #202d44;
+	text-align: center;
+	padding: 35px 0;
+}
+
+.copy {
+	color: #95a5a6;
+	font-size: 14px;
+}
